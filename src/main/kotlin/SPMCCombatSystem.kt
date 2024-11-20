@@ -28,7 +28,7 @@ fun init() {
     glfwDefaultWindowHints()
     glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE)
     glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE)
-    window = glfwCreateWindow(300, 300, "Hello World!", 0, 0)
+    window = glfwCreateWindow(800, 600, "SPMCCombatSystem", 0, 0)
     glfwSetKeyCallback(window) { window: Long, key: Int, _: Int, action: Int, _: Int ->
         if (key == GLFW_KEY_ESCAPE && action == GLFW_RELEASE)
             glfwSetWindowShouldClose(window, true)
