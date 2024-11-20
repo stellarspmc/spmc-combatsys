@@ -231,50 +231,6 @@
         </dependency>
         <dependency>
             <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-spvc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-sse</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-stb</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-tinyexr</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-tinyfd</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-tootle</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-vma</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-vulkan</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-xxhash</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-yoga</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-zstd</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl</artifactId>
             <classifier>${lwjgl.natives}</classifier>
         </dependency>
@@ -421,56 +377,6 @@
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-shaderc</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-spvc</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-sse</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-stb</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-tinyexr</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-tinyfd</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-tootle</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-vma</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-xxhash</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-yoga</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-zstd</artifactId>
             <classifier>${lwjgl.natives}</classifier>
         </dependency>
     </dependencies>
