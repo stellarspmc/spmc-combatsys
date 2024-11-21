@@ -1,4 +1,4 @@
-package tk.spmc.common.util
+package tk.spmc.common.base
 
 data class Health(val max: Int) {
     private var currentHealth: Double = max.toDouble()
